@@ -64,7 +64,8 @@ library(tibble)
 
 #TASK: Run the next few lines of code and note the difference in what the lines return
 #Put your noted difference in a new comment below
-#
+#NewWomen combines all of the datasets into one table (four columns) and NewWomen1 combines just
+#the two datasets we created in lines 36 and 38 using column headers created in the line of code.
 NewWomen<-tibble(HeightandWeight, height=Just_Height, weight=Just_Weight)
 NewWomen1<-tibble(height=Just_Height, weight=Just_Weight)
 View(NewWomen)
